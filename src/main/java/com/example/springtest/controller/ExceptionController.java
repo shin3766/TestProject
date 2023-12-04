@@ -1,7 +1,7 @@
 package com.example.springtest.controller;
 
-import com.example.newsfeedproject.dto.MessageDto;
-import com.example.newsfeedproject.exception.NotFoundEntityException;
+import com.example.springtest.dto.MessageDto;
+import com.example.springtest.exception.NotFoundEntityException;
 import jakarta.mail.SendFailedException;
 import org.springframework.http.HttpStatus;
 import org.springframework.security.access.AccessDeniedException;

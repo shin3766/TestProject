@@ -1,12 +1,12 @@
 package com.example.springtest.controller;
 
 
-import com.example.newsfeedproject.dto.JwtUser;
-import com.example.newsfeedproject.dto.LoginRequestDto;
-import com.example.newsfeedproject.dto.MsgResponseDto;
-import com.example.newsfeedproject.dto.SignupRequestDto;
-import com.example.newsfeedproject.jwt.JwtUtil;
-import com.example.newsfeedproject.service.UserService;
+import com.example.springtest.dto.JwtUser;
+import com.example.springtest.dto.LoginRequestDto;
+import com.example.springtest.dto.MsgResponseDto;
+import com.example.springtest.dto.SignupRequestDto;
+import com.example.springtest.jwt.JwtUtil;
+import com.example.springtest.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -17,7 +17,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import static com.example.newsfeedproject.jwt.JwtUtil.*;
+import static com.example.springtest.jwt.JwtUtil.*;
+
 
 @Slf4j
 @Controller

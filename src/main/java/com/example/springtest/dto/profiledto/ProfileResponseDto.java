@@ -1,6 +1,6 @@
 package com.example.springtest.dto.profiledto;
 
-import com.example.newsfeedproject.entity.User;
+import com.example.springtest.entity.User;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

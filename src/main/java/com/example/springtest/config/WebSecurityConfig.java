@@ -1,9 +1,9 @@
 package com.example.springtest.config;
 
 
-import com.example.newsfeedproject.dto.MessageDto;
-import com.example.newsfeedproject.jwt.JwtAuthorizationFilter;
-import com.example.newsfeedproject.jwt.JwtUtil;
+import com.example.springtest.dto.MessageDto;
+import com.example.springtest.jwt.JwtAuthorizationFilter;
+import com.example.springtest.jwt.JwtUtil;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;

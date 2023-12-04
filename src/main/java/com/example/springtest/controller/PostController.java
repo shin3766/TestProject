@@ -1,9 +1,9 @@
 package com.example.springtest.controller;
 
-import com.example.newsfeedproject.dto.MessageDto;
-import com.example.newsfeedproject.dto.postDto.PostRequestDto;
-import com.example.newsfeedproject.dto.postDto.PostResponseDto;
-import com.example.newsfeedproject.service.PostService;
+import com.example.springtest.dto.MessageDto;
+import com.example.springtest.dto.postDto.PostRequestDto;
+import com.example.springtest.dto.postDto.PostResponseDto;
+import com.example.springtest.service.PostService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
